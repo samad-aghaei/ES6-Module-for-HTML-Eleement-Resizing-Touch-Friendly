@@ -21,11 +21,11 @@ import resizer from './src/script.js'
 
 new resizer({
     width:     300, // initial Width
-    // minWidth:  1024, 
-    // maxWidth:  1200,
+    minWidth:  100, 
+    mahHeight: 75,
     height:    200, // initial Height
-    // minHeight: 576,
-    // maxHeight: 600,
+    maxHeight: 800,
+    maxWidth:  900,
     parent:    'div', // The element to be resized
     child:     'span' // We need a full With/Height child element insde the parent
 })
